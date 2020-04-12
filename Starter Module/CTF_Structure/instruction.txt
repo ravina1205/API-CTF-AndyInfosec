@@ -1,0 +1,10 @@
+
+1st Command :-
+root@kali:~/../CTF_Structure# source virtualenv/bin/activate
+
+2nd Command :-
+(venv) $ export FLASK_APP=microblog.py
+
+3rd Command :-
+(venv) $ flask run
+

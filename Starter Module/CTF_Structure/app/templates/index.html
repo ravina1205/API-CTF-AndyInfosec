@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if loggedIn %}
+<div class="jumbotron">
+    <h1 class="display-3">Hi {{ username }}</h1>
+    <p class="lead">Login Successful</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+     
+  </div>
+{% else %}
+<div class="jumbotron">
+  <h1 class="display-3">Hi {{ username }}</h1>
+  <p class="lead">Login Failed</p>
+  <hr class="my-4">
+  <p></p>
+   
+</div>
+{% endif %}
+  {% endblock %}
