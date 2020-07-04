@@ -21,7 +21,7 @@ Steps to Run the python RestFul API in localhost.
    4. If everything have gone smoothly, 
    you can open browser and open http://127.0.0.1:8080/v1/CTF
    OR
-   If you have installed use command:- curl http://127.0.0.1:8080/v1/CTF
+   If you have cURL installed use command:- curl http://127.0.0.1:8080/v1/CTF
 
    
 
